@@ -1,0 +1,120 @@
+Setting CLI environment variables....
+IBM Workload Scheduler Environment Successfully Set !!!
+IBM Workload Automation Environment Successfully Set !!!
+%sj FODSETL01#0AAAAAAAAAABUTZX;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_ACTLKTRANL_M 1800 09/30 **************************************** ABEND 10 10/21  00:02             {09/30/19}
+                                 (DODSETL01#)JB_ODS_PL_G_ACTLNKTRANSFERLOG_ME         SUCC  10 10/21  00:01           0 #J394999457
+                                 (DODSETL01#)JB_ODS_PL_W_ACTLNKTRANSFERLOG_ME         SUCC  10 10/21  00:01           0 #J394999459
+                                 (DODSETL01#)JB_ODS_ACTLNKTRANSFERLOG_ME              ABEND 10 10/21  00:01       36331 #J394999460
+                                 (DODSETL01#)JB_ODS_PL_S_ACTLNKTRANSFERLOG_ME         ABEND 10 10/21  00:01         255 #J394999463
+%sj FODSETL01#0AAAAAAAAAABUWC4;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPAPROCARD_M 1800 09/30 **************************************** STUCK 10 10/05 (00:01)            {09/30/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_PROJECTCARD SUCC  10 10/05  00:01           0 #J545809665
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_PROJECTCARD SUCC  10 10/05  00:01           0 #J545809678
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_PROJECTCARD      ABEND 10 10/05  00:01       36331 #J545809679
+ >>rerun as                      (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_PROJECTCARD      ABEND 10 10/07  00:01       36331 #J545829622
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTCARD ABEND 10 10/05  00:01         255 #J545809697
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_PROJECTCARD HOLD  10(09/30)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTCARD
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_PROJECTCARD
+%sj FODSETL01#0AAAAAAAAAABUWC6;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPAPROPROT_M 1800 09/30 **************************************** STUCK 10 10/05 (00:01)            {09/30/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_PROJECTPROT SUCC  10 10/05  00:01           0 #J545809663
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_PROJECTPROT SUCC  10 10/05  00:01           0 #J545809667
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_PROJECTPROT      ABEND 10 10/05  00:01       36331 #J545809668
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTPROT ABEND 10 10/05  00:01         255 #J545809682
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_PROJECTPROT HOLD  10(09/30)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTPROT
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_PROJECTPROT
+%sj FODSETL01#0AAAAAAAAAABUWC7;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPASREBATE_M 1800 09/30 **************************************** STUCK 10 10/05 (00:01)            {09/30/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_REBATE      SUCC  10 10/05  00:01           0 #J545809669
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_REBATE      SUCC  10 10/05  00:01           0 #J545809683
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_REBATE           ABEND 10 10/05  00:01       36331 #J545809684
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_REBATE      ABEND 10 10/05  00:01         255 #J545809699
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_REBATE      HOLD  10(09/30)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_REBATE
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_REBATE
+%sj FODSETL01#0AAAAAAAAAABUWDF;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPRULE_PAR_M 1800 09/30 **************************************** STUCK 10 10/05 (00:01)            {09/30/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_RULE_PARM   SUCC  10 10/05  00:01           0 #J545809673
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_RULE_PARM   SUCC  10 10/05  00:01           0 #J545809691
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_RULE_PARM        ABEND 10 10/05  00:01       36331 #J545809692
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_RULE_PARM   ABEND 10 10/05  00:01         255 #J545809701
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_RULE_PARM   HOLD  10(09/30)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_RULE_PARM
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_RULE_PARM
+%sj FODSETL01#0AAAAAAAAAABUWDG;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPSPON_SOR_M 1800 09/30 **************************************** STUCK 10 10/05 (00:01)            {09/30/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_SPONSOR     SUCC  10 10/05  00:01           0 #J545809674
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_SPONSOR     SUCC  10 10/05  00:01           0 #J545809693
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_SPONSOR          ABEND 10 10/05  00:01       36331 #J545809694
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_SPONSOR     ABEND 10 10/05  00:01         255 #J545809702
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_SPONSOR     HOLD  10(09/30)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_SPONSOR
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_SPONSOR
+%sj FODSETL01#0AAAAAAAAAABU7WJ;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_V_ENTERPRI_D 1800 10/01 **************************************** ABEND 10 10/01  663:06            {10/01/19}
+                                 (DODSETL01#)JB_ODS_CC_PL_G_V_ENTERPRISE              SUCC  10 10/01  00:01           0 #J545742697
+                                 (DODSETL01#)JB_ODS_CC_PL_W_V_ENTERPRISE              SUCC  10 10/01  00:01           0 #J545742736
+                                 (DODSETL01#)JB_ODS_CC_V_ENTERPRISE                   ABEND 10 10/01  00:01       36331 #J545742737
+ >>rerun as                      (DODSETL01#)JB_ODS_CC_V_ENTERPRISE                   ABEND 10 10/29  00:01       36331 #J395106694
+                                 (DODSETL01#)JB_ODS_CC_PL_S_V_ENTERPRISE              ABEND 10 10/01  00:01         255 #J545742755
+%sj FODSETL01#0AAAAAAAAAABWM4O;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPAPROPROD_M 1625 09/30 **************************************** STUCK 10 10/09 (00:01)            {10/08/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_PROJECTPROD SUCC  10 10/09  00:01           0 #J545863686
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_PROJECTPROD SUCC  10 10/09  00:01           0 #J545863688
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_PROJECTPROD      ABEND 10 10/09  00:01       36331 #J545863689
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTPROD ABEND 10 10/09  00:01         255 #J545863691
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_PROJECTPROD HOLD  10(10/09)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTPROD
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_PROJECTPROD
+%sj FODSETL01#0AAAAAAAAAABW3RP;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_FLB3B_D      1800 10/22 **************************************** STUCK 10 10/23 (00:02)            {10/22/19}
+                                 (DODSETL01#)JB_ODS_BANK_PL_G_FELB3B                  SUCC  10 10/23  00:01           0 #J395026991
+                                 (DODSETL01#)JB_ODS_BANK_PL_W_FELB3B                  SUCC  10 10/23  00:01           0 #J395027034
+                                 (DODSETL01#)JB_ODS_BANK_FELB3B                       ABEND 10 10/23  00:01       36331 #J395027035
+ >>rerun as                      (DODSETL01#)JB_ODS_BANK_FELB3B                       ABEND 10 10/23  00:01       36331 #J395029988
+                                 (DODSETL01#)JB_ODS_BANK_PL_S_FELB3B                  ABEND 10 10/23  00:01         255 #J395027088
+                                 (DODSETL01#)JB_ODS_BANK_PL_M_FELB3B                  HOLD  10(10/22)(00:01)            JB_ODS_BANK_FELB3B
+                                                                                                                        JB_ODS_BANK_PL_S_FELB3B
+%sj FODSETL01#0AAAAAAAAAABXTHZ;schedid
+                                                                                               (Est)  (Est)
+Workstation      Job Stream       SchedTime  Job                                      State Pr Start  Elapse ReturnCode Dependencies
+ 
+FODSETL01       #ODS_CPAPROPROD_M 1800 10/31 **************************************** STUCK 10 11/06 (00:01)            {10/31/19}
+                                 (DODSETL01#)JB_ODS_USR_PL_G_USR_CPAS_ISC_PROJECTPROD SUCC  10 11/06  00:01           0 #J395225809
+                                 (DODSETL01#)JB_ODS_USR_PL_W_USR_CPAS_ISC_PROJECTPROD SUCC  10 11/06  00:01           0 #J395225816
+                                 (DODSETL01#)JB_ODS_USR_USR_CPAS_ISC_PROJECTPROD      ABEND 10 11/06  00:01       36331 #J395225817
+                                 (DODSETL01#)JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTPROD ABEND 10 11/06  00:01         255 #J395225831
+                                 (DODSETL01#)JB_ODS_USR_PL_M_USR_CPAS_ISC_PROJECTPROD HOLD  10(10/31)                                       
+                                                                                                                        JB_ODS_USR_PL_S_USR_CPAS_ISC_PROJECTPROD
+                                                                                                                        JB_ODS_USR_USR_CPAS_ISC_PROJECTPROD
+%abcdefg112233
